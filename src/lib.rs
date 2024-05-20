@@ -19,10 +19,8 @@ pub mod vrf_lite;
 pub mod vrf_pool;
 
 pub use aggregator::*;
-pub use buffer_relayer::*;
 pub use crank::*;
 pub use decimal::*;
-pub use ecvrf::*;
 pub use error::SwitchboardError;
 pub use history_buffer::*;
 pub use job::*;
@@ -31,9 +29,6 @@ pub use oracle::*;
 pub use permission::*;
 pub use queue::*;
 pub use sb_state::*;
-pub use vrf::*;
-pub use vrf_lite::*;
-pub use vrf_pool::*;
 
 /// Seed used to derive the SbState PDA.
 pub const STATE_SEED: &[u8] = b"STATE";
