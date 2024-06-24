@@ -25,14 +25,8 @@ rust_decimal = "=1.26.1"
 bytemuck = { version = "*" }
 superslice = "1"
 solana-program = ">= 1.14.16, < 1.19.0"
-# anchor-lang = "0.27.0"
-# anchor-spl = "0.27.0"
-# https://github.com/coral-xyz/anchor/issues/2502
-anchor-lang = { git = "https://github.com/coral-xyz/anchor" }
-anchor-spl = { git = "https://github.com/coral-xyz/anchor.git", features = [
-    "idl-build",
-    "metadata",
-] }
+anchor-lang = "0.30.1"
+anchor-spl = "0.30.1"
 # toml_datetime = "=0.6.1"
 # winnow = "=0.4.1"
 # toml_edit = "=0.19.8"
